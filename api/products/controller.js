@@ -44,7 +44,6 @@ exports.deleteOne = (req, res) => {
 
 exports.deleteAll = (req, res) => {
 
-
     models.products.destroy({
         where: {},
         truncate: true
